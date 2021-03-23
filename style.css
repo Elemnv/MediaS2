@@ -1,0 +1,29 @@
+body{
+    font-family: Arial;
+    font-size: 40px;
+}
+.flex-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+li,ul{
+    list-style: none;
+}
+
+.listBooks{
+    color: #56b0a5;
+}
+
+.listTrees{
+    color: #0f4e16;
+}
+
+.list_item{
+    margin-bottom: 10px;
+}
+.list_item:last-child{
+    margin: 0;
+}
